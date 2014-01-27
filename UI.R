@@ -3,6 +3,7 @@ zipcode_set = sort(zipcode_data$zipcode);
 
 shinyUI(bootstrapPage(
 
+
   headerPanel("", windowTitle = "PM2.5 Prediction"),
   
   sidebarPanel(
